@@ -26,4 +26,11 @@ car.type = "Ford";
 
 console.log(car);
 
+enum Space{
+    Right=4,left,Up,Down
+}
+
+let direction = Space.Right;
+console.log(Space.Right);
+
 export{}
